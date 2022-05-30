@@ -1,3 +1,5 @@
+package File类;
+
 import java.io.File;
 
 /**
@@ -6,7 +8,7 @@ import java.io.File;
  * @author 志昊的刘
  * @date 2022/5/30
  */
-public class FIlenameFilterTest {
+public class FilenameFilterTest {
     public static void main(String[] args) {
         File file = new File(".");
         String[] list = file.list(((dir, name) -> name.endsWith(".java") || new File(name).isDirectory()));
