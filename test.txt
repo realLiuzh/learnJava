@@ -1,0 +1,2 @@
+普通字符串
+IO流体系.PrintStreamTest@6fadae5d
